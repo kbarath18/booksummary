@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+
+   
+}
+h1{
+    font-family: sans-serif;
+}
+
+#head{
+    width: 100%;
+    height: 40px;
+    background-color: #fd6569;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 20px;
+   
+}
+
+
+
+
+#add{
+    position: fixed;
+    bottom: 10px;
+    right:180px;
+    border-radius: 60%;
+    padding: 1%;
+    font-size: 3rem;
+    border: 1px solid #fd6569;
+    background-color: #fd6569;
+    color: white;
+    
+  
+}
+
+
+#sample-box{
+    position: fixed;
+    margin: 20px;
+    border: 1px solid black;
+    display: none;
+    width: 30%;
+    background-color: #fd6569;
+    top: 30%;
+    left: 30%;
+    border-radius: 10px;
+    padding: 30px;
+
+    
+   
+}
+
+input{
+    
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #fd6569;
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    background: transparent;
+}
+
+input:focus{
+    outline-offset: none;
+    background-color: #fd6569;
+}
+
+textarea{
+    margin-left: 8px;
+ 
+    background-color: #fd6569;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 10px;
+    outline: none;
+
+}
+
+textarea::placeholder{
+    color: black;
+    font-size: 25px;
+}
+
+#divBox{
+    border: 2px solid #fd6569;
+    padding: 30px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+p{
+    color: white;
+}
+
+h3{
+    color: #fd6569;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+pre{
+    color: white;
+}
+
+#add-book , #cancel{
+    background-color: #fd6569;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid black;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+input::placeholder{
+    font-size: 20px;
+    color: black;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#delete{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    background-color: #fd6569;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

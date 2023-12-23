@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="head"> <h1>Book Summaries</h1> </div>
+
+
+
+
+    
+
+   <div class="container">
+
+    <div id="divBox">
+        <h3>Book Name</h3>
+        <pre style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Book Content 
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Quaerat nam officiis et veniam, quasi dolorum.
+Accusamus hic tenetur odio sit ex inventore amet
+necessitatibus officia voluptatem.
+Accusantium nemo est ea.
+
+
+</pre>
+        <pre>Author Name -Barath Kumar</pre>
+
+
+        <button id="delete" onclick="deleteBook(event)">Delete</button>
+
+
+
+            </div>       
+
+   <div id="sample-box">
+    <h2>Add Book</h2>
+    <input id="book-name" type="text" placeholder="Book Title"> <br> 
+    <input id="author-name" type="text" placeholder="Author Name"> <br>
+    <textarea placeholder="Book Summary" name="" id="text-area" cols="30" rows="7"></textarea> <br>
+
+    <button onclick="addBook()" id="add-book">Add Book</button>
+    <button id="cancel" onclick="cancel()">Cancel</button>
+
+
+   </div> 
+
+
+
+
+    </div>
+
+
+
+
+
+
+   <!-- </div>       
+
+   <div id="sample-box">
+    <h2>Add Book</h2>
+    <input id="book-name" type="text" placeholder="Book Title"> <br> 
+    <input id="author-name" type="text" placeholder="Author Name"> <br>
+    <textarea placeholder="Book Summary" name="" id="text-area" cols="30" rows="7"></textarea> <br>
+
+    <button onclick="addBook()" id="add-book">Add Book</button>
+    <button id="cancel" onclick="cancel()">Cancel</button>
+
+
+   </div> -->
+
+
+
+
+   <button id="add" onclick="show()">+</button>
+
+
+
+   <script src="app.js"></script>
+    
+</body>
+</html>
